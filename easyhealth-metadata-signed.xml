@@ -11,15 +11,15 @@
           <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
         </ds:Transforms>
         <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-        <ds:DigestValue>4Y8Q8b/XQ+mwn6EZWyr0566bMlKGYq3JyzG2wePM6bk=</ds:DigestValue>
+        <ds:DigestValue>+cKAApq2juvIhPGTpGiEvJmfpQafFKeq2D0iOpczXHU=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
-    <ds:SignatureValue>bEdHHB3eD97TbTHA65ie6KM2DUqjcm5iHhuUqt4LyuTHAaJNi/UdKH8TLiymzK45
-opuQqzW3l0iMLD50lxAvU3xyXg6yUZWTkJI9+cgktuNZwP4TJQibxf+EQxYgJT/E
-zZ4GHR9Vp6HzTiLC2yUi1US7/MyGsrkj/05JSAGobILfly+BNHsP1dy4yDTNXSOp
-MJ3x6qm71gNhDNq/MWP0oy/p/ayOqG9HZivQjuwv12dVHOCF8R/8ZT3pJaLskk9V
-QmVB9BuSg/imEARMxVTtvYjLRzAGnlUmliAkskNOlgAPg7IDfW9Y1IrBQuJxSa7T
-9hiXGVDlOHQ9/qm9zPW7qA==</ds:SignatureValue>
+    <ds:SignatureValue>ddrdMD8+iBROCV93GV/Amfug1sammV+N3hpSCzo/Ya0IrfzswmPHa6SrbytmnfNq
+1woSe2/yt7FphuGJCx8EDsJEOX+bMbG24VRTPsfs2yC8n33FhmFRFLJpBWBK4AMQ
+7R9W78EcnY5Im7+xdhfUH6fxYEjUNck+uH6wWUsR73akwCY3Kf1BmN8PrAjzTx7W
+d1HFN2+6E1L9G8owz4MjgUlBkxSLOKWZTs30mzHwLbLt4moImYJR29O3ZBqwZ7tm
+QN4T+U1zHfmNbk7zcbQMPfY7VzPJdEwpSdoY7W1u/KjpQKzsnaG5/sOFdlLTgFok
+qxH+YUbUp5rFuNmmQs2tRg==</ds:SignatureValue>
     <ds:KeyInfo>
       <ds:X509Data>
         <ds:X509Certificate>MIIDxTCCAq2gAwIBAgIUU5jofKsl7M32KfM3hESfoxdtXrQwDQYJKoZIhvcNAQELBQAwcjELMAkGA1UEBhMCSVQxEjAQBgNVBAgMCUxvbWJhcmRpYTEPMA0GA1UEBwwGTWlsYW5vMRswGQYDVQQKDBJFYXN5IEhlYWx0aCBzcmwgU0IxITAfBgNVBAMMGGtleWNsb2FrLmVhc3loZWFsdGgudGVjaDAeFw0yNTA5MjYxMTMzNTJaFw0zNTA5MjQxMTMzNTJaMHIxCzAJBgNVBAYTAklUMRIwEAYDVQQIDAlMb21iYXJkaWExDzANBgNVBAcMBk1pbGFubzEbMBkGA1UECgwSRWFzeSBIZWFsdGggc3JsIFNCMSEwHwYDVQQDDBhrZXljbG9hay5lYXN5aGVhbHRoLnRlY2gwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpfvaLMeCN1YDXc2GyCN5YWaSNegrsYolfarUFzun1KNV+pHknawFtC4TkaGAOl+y/w9A3OSvprBHHp+aPgYcYnguzAjjuvxrrsMaym77hKvHeyjWs/xabW1xYEQh2+phxnhM5eXAj04aI6xjhkfUQxdlj+rTHJDZ6ZgQ5+SqmrnYn/B4IYZTiS2HDfvoXOTLIQH4Diin/6iEqp/SEKFIrNIYKWy1JvhfPPRb4lctXo/bcTz3Ts/t/WAh2XCLr4zs4ig+R41vhZhR2TDQ6cPC2vUSQm4ljgOytk5hFY60eMtGaOAZ4qNb84ohHnpE4kbra4oMwxMRnx7p8CedYeYLdAgMBAAGjUzBRMB0GA1UdDgQWBBRmecbepkn0Kdt9OOXzYb9zLZNCWDAfBgNVHSMEGDAWgBRmecbepkn0Kdt9OOXzYb9zLZNCWDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBxwSB1PeTLO1DCcu7Om5wvQqcsM2zFt9s9J9bn1IrDgVOD/txSE/xvhONXZvOtHQP2Rbe/QCPjz7y66eBywT6ckjkMUfHuXXgx7ryemkngES+Js7jPL+27u5pDxwtu6/b/dEx4naUid+7yRAFsFzsh6YnArhN7gVSQmHkfcM2Un4vWPlWj9y7IDhNo0zizhi9Txb279nVDxAFm9yMyU+qSJKAwYQoifoyvtXMJZtXIwQUKaC5SKrsoys9aHEAWPalHje9N2A76IuJ6te1WcYqW66iMmF0bHVCQeKzrKekVK4jRcbV6ph0twZhwsTi8fIyzR8WRdsTw3HUYB0dRUv0R</ds:X509Certificate>
@@ -82,21 +82,26 @@ QmVB9BuSg/imEARMxVTtvYjLRzAGnlUmliAkskNOlgAPg7IDfW9Y1IrBQuJxSa7T
   </md:ContactPerson>
 
   <md:ContactPerson contactType="billing">
-    <md:Extensions>
-      <spid:VATNumber>IT11607630966</spid:VATNumber>
-      <spid:FiscalCode>11607630966</spid:FiscalCode>
-      <spid:Public/>
-      <spid:CessionarioCommittente>
-        <spid:Denominazione>Easy Health srl SB</spid:Denominazione>
-        <spid:CodiceFiscale>11607630966</spid:CodiceFiscale>
-        <spid:Sede>
-          <spid:Indirizzo>Via Arcivescovo Calabiana 6</spid:Indirizzo>
-          <spid:CAP>20139</spid:CAP>
-          <spid:Comune>Milano</spid:Comune>
-          <spid:Provincia>MI</spid:Provincia>
-          <spid:Nazione>IT</spid:Nazione>
-        </spid:Sede>
-      </spid:CessionarioCommittente>
+    <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+      <fpa:CessionarioCommittente>
+        <fpa:DatiAnagrafici>
+          <fpa:IdFiscaleIVA>
+            <fpa:IdPaese>IT</fpa:IdPaese>
+            <fpa:IdCodice>11607630966</fpa:IdCodice>
+          </fpa:IdFiscaleIVA>
+          <fpa:Anagrafica>
+            <fpa:Denominazione>Easy Health srl SB</fpa:Denominazione>
+          </fpa:Anagrafica>
+        </fpa:DatiAnagrafici>
+        <fpa:Sede>
+          <fpa:Indirizzo>Via Arcivescovo Calabiana 6</fpa:Indirizzo>
+          <fpa:NumeroCivico>6</fpa:NumeroCivico>
+          <fpa:CAP>20139</fpa:CAP>
+          <fpa:Comune>Milano</fpa:Comune>
+          <fpa:Provincia>MI</fpa:Provincia>
+          <fpa:Nazione>IT</fpa:Nazione>
+        </fpa:Sede>
+      </fpa:CessionarioCommittente>
     </md:Extensions>
     <md:Company>Easy Health srl SB</md:Company>
     <md:EmailAddress>fabio@easyhealth.tech</md:EmailAddress>
